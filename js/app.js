@@ -82,9 +82,12 @@
     console.log(finalMoney);
 
     document.getElementById('cart-total').textContent = finalMoney;
-    document.querySelectorAll('.item-total').textContent = finalMoney;
+    document.querySelector('.item-total').textContent = finalMoney;
     document.getElementById('item-count').textContent = total.length;
+
 
   }
 
 })();
+
+// remove items from the cart
